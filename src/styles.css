@@ -142,10 +142,11 @@ p {
   .primary-link,
   .secondary-link {
     display: block;
+    margin: 2px auto;
     padding: 5%;
   }
   .contact-links a {
-    margin: 2px;
-    padding: 10px;
+    margin: 35px;
+    padding: 15px 45px;
   }
 }
