@@ -3,17 +3,18 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
+html {
+  display: block;
+  margin: 0 auto;
+}
 
 body {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 20%;
+  background-color: #e3eee6;
 }
 
-html {
-  display: block;
-  margin: 0 auto;
-}
 h1 {
   margin: 0;
   font-weight: bold;
@@ -33,6 +34,18 @@ h3 {
   opacity: 0.7;
 }
 
+p {
+  display: block;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.hero {
+  background-color: #e3eee6;
+}
+
 .text-center {
   text-align: center;
 }
@@ -44,14 +57,6 @@ h3 {
   left: 0;
   width: 100%;
   z-index: 10;
-}
-
-p {
-  display: block;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  padding: 10px;
 }
 
 .projectButton {
