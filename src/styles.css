@@ -117,8 +117,30 @@ p {
   color: var(--primary-color);
 }
 
+.project-links {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 70%;
+  display: block;
+}
+
+.project-links:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
 .padding-top {
-  padding-top: 16%;
+  padding-top: 18%;
+}
+
+.div-space {
+  margin-bottom: 5%;
 }
 
 #contact {
@@ -160,5 +182,11 @@ p {
   .contact-links a {
     margin: 30px 15px;
     padding: 15px 40px;
+  }
+
+  .homepage-content-p {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
   }
 }
