@@ -46,10 +46,19 @@ p {
   padding: 10px;
 }
 
-a:hover {
+img {
+  box-shadow: var(--box-shadow);
+}
+
+.apps {
+  margin: 3% 0%;
+}
+
+.navbar a:hover {
   font-weight: 700;
   background-color: var(--secondary-color);
   width: max-content;
+  color: var(--quaternary-color);
 }
 
 .about-tagline {
@@ -67,6 +76,10 @@ a:hover {
   padding-bottom: 40%;
 }
 
+.exemplar-title {
+  min-height: 1000px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -78,6 +91,7 @@ a:hover {
   left: 0;
   width: 100%;
   z-index: 10;
+  background-color: var(--secondary-color);
 }
 
 .projectButton {
@@ -148,7 +162,8 @@ a:hover {
   margin-bottom: 5%;
 }
 
-.exemplar-links {
+.exemplar-links,
+.see-more-link {
   display: block;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -160,6 +175,13 @@ a:hover {
   border-radius: 40px;
 }
 
+.see-more-link {
+  max-width: fit-content;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.see-more-link:hover,
 .primary-link:hover,
 .project-links:hover,
 .exemplar-links:hover {
@@ -173,13 +195,17 @@ a:hover {
   display: block;
 }
 
-a.contact-me-links:hover {
+.contact-me-links:hover {
   font-weight: 900;
   color: var(--quaternary-color);
 }
 
 #contact {
   display: block;
+}
+
+#hero {
+  color: var(--primary-color);
 }
 
 #linkedin-link,
