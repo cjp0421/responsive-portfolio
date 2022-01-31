@@ -156,6 +156,24 @@ p {
   margin-bottom: 5%;
 }
 
+.exemplar-links {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 15%;
+  padding: 3%;
+  font-family: "Raleway", sans-serif;
+}
+
+.exemplar-links:hover {
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border: solid 2px var(--tertiary-color);
+  font-weight: 900;
+}
+
 #contact {
   display: block;
 }
@@ -175,7 +193,7 @@ p {
 }
 
 .weatherAppImage {
-  width: 100%;
+  width: 90%;
 }
 
 @media (max-width: 576px) {
