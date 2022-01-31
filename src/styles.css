@@ -12,7 +12,7 @@ html {
 
 body {
   margin: 0 auto;
-  background-color: #e3eee6;
+  background-color: var(--secondary-color);
 }
 
 h1 {
@@ -55,9 +55,9 @@ p {
 }
 
 .hero {
-  background-color: #e3eee6;
+  background-color: var(--secondary-color);
   min-height: 900px;
-  padding-top: 30%;
+  padding-top: 20%;
   padding-bottom: 40%;
 }
 
@@ -121,15 +121,6 @@ p {
   text-decoration: none;
 }
 
-.primary-link:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-}
-
-.secondary-link:hover {
-  color: var(--primary-color);
-}
-
 .project-links {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -141,11 +132,6 @@ p {
   margin-bottom: 5%;
   width: 70%;
   display: block;
-}
-
-.project-links:hover {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
 }
 
 .padding-top {
@@ -165,8 +151,11 @@ p {
   margin-top: 15%;
   padding: 3%;
   font-family: "Raleway", sans-serif;
+  border-radius: 40px;
 }
 
+.primary-link:hover,
+.project-links:hover,
 .exemplar-links:hover {
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
