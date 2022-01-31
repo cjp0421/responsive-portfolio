@@ -46,6 +46,12 @@ p {
   padding: 10px;
 }
 
+a:hover {
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  width: max-content;
+}
+
 .about-tagline {
   color: var(--primary-color);
 }
