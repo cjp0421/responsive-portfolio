@@ -56,7 +56,7 @@ p {
 
 .hero {
   background-color: var(--secondary-color);
-  min-height: 900px;
+  min-height: 1000px;
   padding-top: 20%;
   padding-bottom: 40%;
 }
@@ -167,15 +167,22 @@ p {
   display: block;
 }
 
+a.contact-me-links:hover {
+  font-weight: 900;
+  color: var(--quaternary-color);
+}
+
 #contact {
   display: block;
 }
 
+#linkedin-link,
 #email-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
   font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
