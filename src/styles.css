@@ -230,6 +230,10 @@ img {
   margin-top: 10%;
 }
 
+#contact-top {
+  background-color: var(--secondary-color);
+}
+
 #email-link {
   display: block;
   margin: 0 auto;
