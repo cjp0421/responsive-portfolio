@@ -181,7 +181,7 @@ img {
 .see-more-link {
   max-width: fit-content;
   padding: 2.5%;
-  margin-bottom: 15%;
+  margin-bottom: 7.5%;
 }
 
 .see-more-link:hover,
@@ -251,6 +251,21 @@ img {
 
 #hero {
   color: var(--primary-color);
+}
+.repository-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.repository-link a:hover {
+  color: var(--quaternary-color);
+  font-weight: 500;
+}
+
+.coded-by-ref {
+  display: block;
+  background-color: var(--secondary-color);
+  padding-top: 10%;
 }
 
 @media (max-width: 576px) {
