@@ -181,7 +181,7 @@ img {
 .see-more-link {
   max-width: fit-content;
   padding: 1%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 .see-more-link:hover,
@@ -262,6 +262,10 @@ img {
   }
 
   .video {
+    display: none;
+  }
+
+  .mobile-hide {
     display: none;
   }
 }
