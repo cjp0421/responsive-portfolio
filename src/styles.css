@@ -90,7 +90,7 @@ img {
 .navbar a:hover {
   background-color: rgb(244, 250, 255, 0.3);
   max-width: fit-content;
-  font-weight: 700;
+  font-weight: 600;
 
   width: max-content;
   color: var(--quaternary-color);
