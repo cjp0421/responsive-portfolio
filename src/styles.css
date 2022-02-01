@@ -1,6 +1,6 @@
 :root {
   --primary-color: #3e5641;
-  --secondary-color: #f4faff;
+  --secondary-color: #faf8f4;
   --tertiary-color: #9b6a6c;
   --quaternary-color: #d4af37;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
@@ -20,15 +20,16 @@ h1 {
   font-weight: bold;
   font-size: 4.5rem;
   margin-bottom: 20px;
-  color: #d4af37;
+  color: var(--quaternary-color);
   font-family: "Playball", cursive;
 }
 
 h2 {
   display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight: 900;
   font-family: "Raleway", sans-serif;
+  color: var(--primary-color);
 }
 
 h3 {
@@ -83,21 +84,13 @@ img {
   right: 0;
   left: 0;
   z-index: 10;
-  background-color: rgb(244, 250, 255, 0.4);
-  transition: background-color 100ms ease-in-out;
+  background-color: rgb(250, 248, 244, 0.4);
+  transition: background-color 90ms ease-in-out;
 }
 
 .navbar a:hover {
-  background-color: rgb(244, 250, 255, 0.3);
-  max-width: fit-content;
-  font-weight: 600;
-
-  width: max-content;
-  color: var(--quaternary-color);
-}
-
-.projectButton {
-  box-shadow: var(--box-shadow);
+  background-color: rgb(250, 248, 244, 0.7);
+  font-weight: 700;
 }
 
 .about-paragraphs p {
@@ -154,6 +147,13 @@ img {
   margin-bottom: 5%;
   width: 70%;
   display: block;
+  border-radius: 4px;
+}
+
+.project-titles {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  text-align: center;
 }
 
 .padding-top {
@@ -175,6 +175,7 @@ img {
   padding: 3%;
   font-family: "Raleway", sans-serif;
   border-radius: 40px;
+  box-shadow: var(--box-shadow);
 }
 
 .see-more-link {
@@ -197,21 +198,7 @@ img {
   display: block;
 }
 
-.contact-me-links:hover {
-  font-weight: 900;
-  color: var(--quaternary-color);
-}
-
-#contact {
-  display: block;
-}
-
-#hero {
-  color: var(--primary-color);
-}
-
-#linkedin-link,
-#email-link {
+.contact-me-links {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
@@ -220,14 +207,26 @@ img {
   text-decoration: none;
 }
 
-#home-link {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.contact-me-links:hover {
+  font-weight: 900;
+  color: var(--quaternary-color);
 }
 
 .weatherAppImage {
   width: 90%;
+}
+
+.footer-links {
+  font-size: 0.5rem;
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  background-color: var(--quaternary-color);
+}
+
+#hero {
+  color: var(--primary-color);
 }
 
 @media (max-width: 576px) {
