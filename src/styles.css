@@ -54,13 +54,6 @@ img {
   margin: 3% 0%;
 }
 
-.navbar a:hover {
-  font-weight: 700;
-  background-color: var(--secondary-color);
-  width: max-content;
-  color: var(--quaternary-color);
-}
-
 .about-tagline {
   color: var(--primary-color);
 }
@@ -89,9 +82,18 @@ img {
   top: 0;
   right: 0;
   left: 0;
-  width: 100%;
   z-index: 10;
-  background-color: var(--secondary-color);
+  background-color: rgb(244, 250, 255, 0.4);
+  transition: background-color 100ms ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: rgb(244, 250, 255, 0.3);
+  max-width: fit-content;
+  font-weight: 700;
+
+  width: max-content;
+  color: var(--quaternary-color);
 }
 
 .projectButton {
