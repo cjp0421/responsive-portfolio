@@ -1,7 +1,7 @@
 :root {
   --primary-color: #3e5641;
   --secondary-color: #faf8f4;
-  --tertiary-color: #9b6a6c;
+  --tertiary-color: rgb(155, 106, 108, 0.2);
   --quaternary-color: #d4af37;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -180,7 +180,7 @@ img {
 
 .see-more-link {
   max-width: fit-content;
-  padding: 1%;
+  padding: 2.5%;
   margin-bottom: 15%;
 }
 
@@ -188,9 +188,9 @@ img {
 .primary-link:hover,
 .project-links:hover,
 .exemplar-links:hover {
-  color: var(--tertiary-color);
+  color: var(--primary-color);
   background-color: var(--secondary-color);
-  border: solid 2px var(--tertiary-color);
+  border: solid 2px var(--quaternary-color);
   font-weight: 900;
 }
 
@@ -225,6 +225,26 @@ img {
   background-color: var(--quaternary-color);
 }
 
+#contact {
+  background-color: var(--tertiary-color);
+  margin-top: 10%;
+}
+
+#email-link {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+#email-link:hover {
+  color: var(--quaternary-color);
+  font-weight: 900;
+}
+
 #hero {
   color: var(--primary-color);
 }
@@ -233,6 +253,11 @@ img {
   img {
     display: none;
   }
+
+  #email-link {
+    display: none;
+  }
+
   .apps {
     width: 100%;
     text-align: center;
