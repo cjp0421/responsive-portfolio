@@ -216,6 +216,17 @@ img {
   width: 90%;
 }
 
+.paragraph-links {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.paragraph-links:hover {
+  color: var(--quaternary-color);
+  text-decoration: underline;
+}
+
 .footer-links {
   font-size: smaller;
   text-decoration: none;
