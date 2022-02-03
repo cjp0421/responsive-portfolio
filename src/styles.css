@@ -224,6 +224,21 @@ img {
 .footer-links:hover {
   background-color: var(--quaternary-color);
 }
+.repository-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.repository-link a:hover {
+  color: var(--quaternary-color);
+  font-weight: 500;
+}
+
+.coded-by-ref {
+  display: block;
+  background-color: var(--secondary-color);
+  padding-top: 10%;
+}
 
 #contact {
   background-color: var(--tertiary-color);
@@ -241,7 +256,7 @@ img {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 1.5rem;
+  font-size: 1em;
 }
 
 #email-link:hover {
@@ -251,21 +266,6 @@ img {
 
 #hero {
   color: var(--primary-color);
-}
-.repository-link a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.repository-link a:hover {
-  color: var(--quaternary-color);
-  font-weight: 500;
-}
-
-.coded-by-ref {
-  display: block;
-  background-color: var(--secondary-color);
-  padding-top: 10%;
 }
 
 @media (max-width: 576px) {
