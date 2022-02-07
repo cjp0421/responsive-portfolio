@@ -84,7 +84,7 @@ img {
   right: 0;
   left: 0;
   z-index: 10;
-  background-color: rgb(250, 248, 244, 0.4);
+  background-color: rgb(250, 248, 244, 0.6);
   transition: background-color 90ms ease-in-out;
 }
 
