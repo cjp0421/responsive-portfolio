@@ -180,8 +180,8 @@ img {
 
 .see-more-link {
   max-width: fit-content;
-  padding: 2.5%;
-  margin-bottom: 7.5%;
+  padding: 1%;
+  margin-bottom: 2.5%;
 }
 
 .see-more-link:hover,
@@ -248,7 +248,7 @@ img {
 .coded-by-ref {
   display: block;
   background-color: var(--secondary-color);
-  padding-top: 10%;
+  padding-top: 3%;
 }
 
 #contact {
