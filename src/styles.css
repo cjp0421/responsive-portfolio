@@ -1,7 +1,7 @@
 :root {
   --primary-color: #3e5641;
   --secondary-color: #fafafa;
-  --tertiary-color: rgb(155, 106, 108, 0.2);
+  --tertiary-color: rgba(170, 118, 119, 0.4);
   --quaternary-color: #d4af37;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
@@ -84,12 +84,17 @@ img {
   right: 0;
   left: 0;
   z-index: 10;
-  background-color: rgb(250, 248, 244, 0.7);
+  background-color: var(--tertiary-color);
   transition: background-color 90ms ease-in-out;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.navbar:hover {
+  background-color: rgba(170, 118, 119, 0.8);
+  font-weight: 650;
 }
 
 .about-paragraphs p {
