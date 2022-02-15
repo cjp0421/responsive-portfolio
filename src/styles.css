@@ -283,8 +283,19 @@ img {
   color: var(--primary-color);
 }
 
+#next,
+#prev {
+  background-color: var(--primary-color);
+  padding: 1%;
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  font-weight: 600;
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
-  img {
+  .weatherAppImage,
+  .headshot {
     display: none;
   }
 
