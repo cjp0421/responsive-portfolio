@@ -5,10 +5,6 @@
   --quaternary-color: #d4af37;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
-html {
-  display: block;
-  margin: 0 auto;
-}
 
 body {
   margin: 0 auto;
@@ -94,7 +90,7 @@ img {
 
 .navbar:hover {
   background-color: rgba(170, 118, 119, 0.8);
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .about-paragraphs p {
@@ -102,6 +98,77 @@ img {
   text-align: center;
   font-size: 1rem;
   margin: 30px 0;
+}
+
+.lp-container {
+  margin: 6% 4% 0% 4%;
+  padding: 0;
+}
+
+.carousel {
+  height: 100vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide[data-active] {
+  opacity: 1;
+}
+
+.slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.prev {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  right: 96%;
+  z-index: 2;
+  transform: translateY(-50%);
+  color: var(--primary-color);
+  opacity: 0.5;
+}
+
+.next {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  left: 96%;
+  z-index: 2;
+  transform: translateY(-50%);
+  color: var(--primary-color);
+  opacity: 0.5;
+}
+
+.next:hover,
+.next:focus,
+.prev:focus,
+.prev:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  border-color: rgba(0, 0, 0, 0);
+  font-size: 4.5rem;
 }
 
 .contact-links {
@@ -175,7 +242,7 @@ img {
   color: var(--secondary-color);
   text-decoration: none;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 5%;
   padding: 3%;
   font-family: "Raleway", sans-serif;
   border-radius: 10px;
@@ -184,8 +251,8 @@ img {
 
 .see-more-link {
   max-width: fit-content;
-  padding: 1%;
-  margin-bottom: 2.5%;
+  padding: 1.5%;
+  margin-bottom: 2%;
 }
 
 .see-more-link:hover,
@@ -283,17 +350,7 @@ img {
   color: var(--primary-color);
 }
 
-#next,
-#prev {
-  background-color: var(--primary-color);
-  padding: 1%;
-  color: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .weatherAppImage,
   .headshot {
     display: none;
@@ -337,5 +394,36 @@ img {
 
   .mobile-hide {
     display: none;
+  }
+
+  .prev {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 30%;
+    right: 90%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    opacity: 0.5;
+  }
+
+  .next {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 30%;
+    left: 90%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    opacity: 0.5;
+    margin: 0;
+  }
+
+  .lp-container {
+    height: 80vh;
   }
 }
