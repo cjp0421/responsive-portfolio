@@ -274,6 +274,13 @@ img {
   margin: 0 auto;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+
 .contact-me-links {
   display: flex;
   justify-content: center;
