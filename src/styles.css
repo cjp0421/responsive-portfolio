@@ -101,7 +101,7 @@ img {
 }
 
 .lp-container {
-  margin: 6% 4% 0% 4%;
+  margin: 7% 4% 0% 8%;
   padding: 0;
 }
 
@@ -121,10 +121,14 @@ img {
   position: absolute;
   inset: 0;
   opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
 }
 
 .slide[data-active] {
   opacity: 1;
+  transition-delay: 0ms;
+  z-index: 1;
 }
 
 .slide img {
@@ -425,5 +429,7 @@ img {
 
   .lp-container {
     height: 80vh;
+    margin: 15% 4% 0% 4%;
+    padding: 0;
   }
 }
