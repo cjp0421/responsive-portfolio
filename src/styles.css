@@ -112,6 +112,14 @@ iframe {
   padding: 0;
 }
 
+.lp-paragraphs {
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 70%;
+  margin: 0 auto;
+}
+
 .carousel {
   height: 100vh;
   display: block;
@@ -444,5 +452,11 @@ iframe {
   #lp-contact {
     background-color: var(--tertiary-color);
     margin-top: 45%;
+  }
+
+  .lp-paragraphs {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
   }
 }
