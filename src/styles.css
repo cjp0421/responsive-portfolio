@@ -440,4 +440,9 @@ iframe {
     margin: 15% 4% 0% 4%;
     padding: 0;
   }
+
+  #lp-contact {
+    background-color: var(--tertiary-color);
+    margin-top: 45%;
+  }
 }
