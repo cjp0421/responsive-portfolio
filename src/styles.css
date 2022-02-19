@@ -421,7 +421,7 @@ iframe {
     background: none;
     border: none;
     font-size: 4rem;
-    top: 30%;
+    top: 25%;
     right: 90%;
     z-index: 2;
     transform: translateY(-50%);
@@ -434,7 +434,7 @@ iframe {
     background: none;
     border: none;
     font-size: 4rem;
-    top: 30%;
+    top: 25%;
     left: 90%;
     z-index: 2;
     transform: translateY(-50%);
