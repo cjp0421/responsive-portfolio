@@ -475,7 +475,7 @@ li {
     border: none;
     font-size: 4rem;
     top: 35%;
-    right: 90%;
+    right: 97%;
     z-index: 2;
     transform: translateY(-50%);
     color: var(--primary-color);
@@ -488,7 +488,7 @@ li {
     border: none;
     font-size: 4rem;
     top: 35%;
-    left: 90%;
+    left: 97%;
     z-index: 2;
     transform: translateY(-50%);
     color: var(--primary-color);
