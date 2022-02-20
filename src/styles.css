@@ -54,6 +54,12 @@ iframe {
   box-shadow: var(--box-shadow);
 }
 
+main,
+section {
+  padding: 0;
+  margin: 0;
+}
+
 .apps {
   margin: 3% 0%;
 }
@@ -126,7 +132,8 @@ iframe {
   margin: 0 auto;
 }
 
-.carousel > ul {
+.carousel > ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -159,7 +166,7 @@ iframe {
   border: none;
   font-size: 4rem;
   top: 50%;
-  right: 96%;
+  right: 90%;
   z-index: 2;
   transform: translateY(-50%);
   color: var(--primary-color);
@@ -172,7 +179,7 @@ iframe {
   border: none;
   font-size: 4rem;
   top: 50%;
-  left: 96%;
+  left: 90%;
   z-index: 2;
   transform: translateY(-50%);
   color: var(--primary-color);
@@ -370,7 +377,7 @@ iframe {
   color: var(--primary-color);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   .weatherAppImage,
   .headshot {
     display: none;
@@ -459,4 +466,51 @@ iframe {
     width: 95%;
     margin: 0 auto;
   }
+}
+
+@media (min-width: 551px) {
+   .prev {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 45%;
+    right: 90%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    opacity: 0.5;
+  }
+
+  .next {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 45%;
+    left: 90%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    opacity: 0.5;
+    margin: 0;
+  }
+
+  .lp-container {
+    height: 80vh;
+    margin: 15% 4% 0% 4%;
+    padding: 0;
+  }
+
+  #lp-contact {
+    background-color: var(--tertiary-color);
+    margin-top: 45%;
+  }
+
+  .lp-paragraphs {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
 }
