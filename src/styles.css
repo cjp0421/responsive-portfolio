@@ -497,14 +497,14 @@ li {
   }
 
   .lp-container {
-    height: 80vh;
-    margin: 8% 4% 0% 4%;
+    height: 70vh;
+    margin: 5% 4% 0% 4%;
     padding: 0;
   }
 
   #lp-contact {
     background-color: var(--tertiary-color);
-    margin-top: 30%;
+    margin-top: 35%;
   }
 
   .lp-paragraphs {
