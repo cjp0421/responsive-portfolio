@@ -497,14 +497,14 @@ li {
   }
 
   .lp-container {
-    height: 70vh;
+    height: 80vh;
     margin: 5% 4% 0% 4%;
     padding: 0;
   }
 
   #lp-contact {
     background-color: var(--tertiary-color);
-    margin-top: 35%;
+    margin-top: 45%;
   }
 
   .lp-paragraphs {
@@ -514,7 +514,7 @@ li {
   }
 
   .carousel {
-    max-width: 70%;
+    max-width: 65%;
   }
 }
 
